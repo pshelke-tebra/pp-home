@@ -30,7 +30,11 @@ export default {
           bg: "#FF8D6E",
           text: "#004852"
         },
-        "metric": "#6FC691",
+        "metric": {
+          stable: "#6FC691",
+          up: "#FFC107",
+          down: "#ea384c"
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
