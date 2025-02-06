@@ -112,7 +112,7 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t border-gray-200 px-6 py-4">
         <div className="flex justify-between items-center max-w-md mx-auto">
-          <button className="flex flex-col items-center gap-1 text-gray-600 hover:text-gray-900">
+          <button className="flex flex-col items-center gap-1 text-[#417E86]">
             <Home className="w-6 h-6" />
             <span className="text-xs">Home</span>
           </button>
