@@ -29,7 +29,7 @@ const Index = () => {
       <section className="mb-6">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-semibold">Next Appointment</h2>
-          <button className="text-sm text-gray-700 hover:text-gray-900">View All</button>
+          <button className="text-sm text-view-all hover:opacity-80">View All</button>
         </div>
         <AppCard className="flex items-center gap-4">
           <img
@@ -52,7 +52,7 @@ const Index = () => {
       <section className="mb-6">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-semibold">Messages</h2>
-          <button className="text-sm text-gray-700 hover:text-gray-900">View All</button>
+          <button className="text-sm text-view-all hover:opacity-80">View All</button>
         </div>
         <div className="space-y-3">
           <AppCard className="flex items-center gap-4">
@@ -120,7 +120,7 @@ const Index = () => {
             <Calendar className="w-6 h-6" />
             <span className="text-xs">Appointments</span>
           </button>
-          <button className="relative -top-6 p-4 rounded-full bg-nav-active text-white shadow-lg hover:bg-nav-active/90 transition-colors">
+          <button className="relative -top-6 p-4 rounded-full bg-nav-active-bg text-nav-active-text shadow-lg hover:opacity-90 transition-colors">
             <Plus className="w-6 h-6" />
           </button>
           <button className="flex flex-col items-center gap-1 text-gray-600 hover:text-gray-900">

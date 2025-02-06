@@ -11,8 +11,8 @@ export const StatusBadge = ({ status, className }: StatusBadgeProps) => {
     <span
       className={cn(
         "px-3 py-1 rounded-full text-sm font-medium",
-        status === "confirmed" && "bg-status-confirmed/20 text-status-confirmed",
-        status === "new" && "bg-status-new/20 text-status-new",
+        status === "confirmed" && "bg-status-confirmed-bg text-status-confirmed-text",
+        status === "new" && "bg-status-new-bg text-status-new-text",
         className
       )}
     >

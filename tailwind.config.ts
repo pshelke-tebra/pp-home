@@ -15,14 +15,22 @@ export default {
     },
     extend: {
       colors: {
-        background: "#83CDD9",
+        background: "#F0EEE8",
         "health-card": "rgba(255, 255, 255, 0.95)",
-        "status-confirmed": "#6FC691",
-        "status-new": "#64B5F6",
-        "metric-stable": "#4CAF50",
-        "metric-up": "#FF9800",
-        "metric-down": "#F44336",
-        "nav-active": "#FF8D6E",
+        "status-confirmed": {
+          bg: "#C3E7C0",
+          text: "#004852"
+        },
+        "status-new": {
+          bg: "#CBDDE0",
+          text: "#FFFFFF"
+        },
+        "view-all": "#004852",
+        "nav-active": {
+          bg: "#FF8D6E",
+          text: "#004852"
+        },
+        "metric": "#6FC691",
       },
       borderRadius: {
         lg: "var(--radius)",
